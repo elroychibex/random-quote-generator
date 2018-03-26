@@ -1,0 +1,67 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lucida Sans" sans-serif;
+    }
+
+  header, footer {
+    color: white;
+    text-align: center;
+    padding: 1% 0;
+  }
+
+  body {
+    background-color: #e74c3c;
+  }
+
+  .box {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+  }
+  .quote-box {
+   width: 80%;
+   margin: 5% auto;
+   padding: 3% 0;
+   color: #e74c3c;
+  }
+  
+  .quote-text {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.7em;
+    padding: 3% 0;
+  }
+
+  .quote-author {
+    float: right;
+    font-size: 0.9em;
+    font-style: italic;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    padding: 3%;
+    margin: auto;
+  }
+
+  button {
+    border:none;
+      border-radius:3px;
+      outline:none;
+    font-size: 0.9em;
+    background-color: #e74c3c;
+   padding: 5px 20px;
+   color: white;
+  }
+
+button >.btn >a {
+  color: white !important;
+}
+
+  .btn:focus, .btn:active {
+outline: none !important;
+}
